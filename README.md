@@ -7,12 +7,10 @@
 - inference.py: Run inference on a test set of images
 - metrics.py: Contains loss functions and metrics to be monitored
 - model.py: Defines encoder, decoder, composite model
-- train.py: Running semi-supervised CL+CR training of the network. Change config variables at the beginning code and run it (python train.py)
+- main.py: Running semi-supervised CL+CR training and finetuning of the network. Change config variables at the beginning code and run it (python main.py)
 - utils.py: Some functional utilities
 - dataloaders/data_generator.py: A completely modular implementation of celiac dataset generator. Easilty modifiable to other datasets
-- FT_model.py: Contains attention unet model class used for finetuning.
 - FT_generator.py: Contains dataloader for finetuning with Celiac Dataset.
-- finetuning.py: Running finetuning on pretrained weights.
 
 ### Requirements
 - python 3.6+

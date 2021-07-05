@@ -10,6 +10,7 @@
 - train.py: Running semi-supervised CL+CR training of the network. Change config variables at the beginning code and run it (python train.py)
 - utils.py: Some functional utilities
 - dataloaders/data_generator.py: A completely modular implementation of celiac dataset generator. Easilty modifiable to other datasets
+- FT_model.py: Contains attention unet model class used for finetuning.
 
 ### Requirements
 - python 3.6+

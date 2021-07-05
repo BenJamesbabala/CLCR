@@ -11,7 +11,8 @@
 - utils.py: Some functional utilities
 - dataloaders/data_generator.py: A completely modular implementation of celiac dataset generator. Easilty modifiable to other datasets
 - FT_model.py: Contains attention unet model class used for finetuning.
-- FT_generator.py: Contains dataloader for finetuning with Celiac Dataset
+- FT_generator.py: Contains dataloader for finetuning with Celiac Dataset.
+- finetuning.py: Running finetuning on pretrained weights.
 
 ### Requirements
 - python 3.6+

@@ -18,7 +18,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLRO
 model_path = 'path to saved finetuned weights' # Saving location
 log_path = 'path to store training logs'
 
-weights_paths = [] #Insert path to resume training from checkpoint
+weights_paths = [] #Path to pretrained weights
 
 train_path = "path to training set"
 valid_path = "path to validation set"

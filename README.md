@@ -1,4 +1,5 @@
-
+**Contrastive Semi-supervised Learning for 2D medical image segmentation.**
+![](images/model.jpg)
 ### Some filemaps
 - attn_unet.py: Code for the backbone/baseline Attention unet
 - data_loader.py: Contains data generator for the celiac dataset

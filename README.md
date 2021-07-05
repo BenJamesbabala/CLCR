@@ -9,7 +9,7 @@
 - model.py: Defines encoder, decoder, composite model
 - main.py: Running semi-supervised CL+CR training and finetuning of the network. Change config variables at the beginning code and run it (python main.py)
 - utils.py: Some functional utilities
-- dataloaders/data_generator.py: A completely modular implementation of celiac dataset generator. Easilty modifiable to other datasets
+- dataloaders/data_generator.py: A completely modular implementation of celiac dataset generator. Easily modifiable to other datasets
 - FT_generator.py: Contains dataloader for finetuning with Celiac Dataset.
 
 ### Requirements
